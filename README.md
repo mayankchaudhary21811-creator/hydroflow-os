@@ -8,7 +8,8 @@
   <strong>Evaluated Course Project</strong> | <strong>Course Code:</strong> CSE2006 (Programming in Java)<br>
   <strong>Institution:</strong> Vellore Institute of Technology (VIT) Bhopal University<br>
   <strong>Student:</strong> Mayank Chaudhary (Registration: 24BEC10011)<br>
-  <strong>Academic Term:</strong> Fall Semester 2026 to 2027
+  <strong>Academic Term:</strong> Fall Semester 2026 to 2027<br>
+  <strong>Official Repository:</strong> <a href="https://github.com/mayankchaudhary21811-creator">https://github.com/mayankchaudhary21811-creator</a>
 </p>
 
 ---
