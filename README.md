@@ -8,6 +8,8 @@
   <strong>Evaluated Course Project</strong> | <strong>Course Code:</strong> CSE2006 (Programming in Java)<br>
   <strong>Institution:</strong> Vellore Institute of Technology (VIT) Bhopal University<br>
   <strong>Student:</strong> Mayank Chaudhary (Registration: 24BEC10011)<br>
+  <strong>College Email:</strong> <a href="mailto:mayank.24bec10011@vitbhopal.ac.in">mayank.24bec10011@vitbhopal.ac.in</a><br>
+  <strong>GitHub Email:</strong> <a href="mailto:mayankchaudhary21811@gmail.com">mayankchaudhary21811@gmail.com</a><br>
   <strong>Academic Term:</strong> Fall Semester 2026 to 2027<br>
   <strong>Official Repository:</strong> <a href="https://github.com/mayankchaudhary21811-creator/hydroflow-os">https://github.com/mayankchaudhary21811-creator/hydroflow-os</a>
 </p>
