@@ -23,7 +23,7 @@ public class HydroFlowTestSuite {
 
     public static void main(String[] args) {
         System.out.println("=================================================================");
-        System.out.println("          RUNNING HYDROFLOW OS AUTOMATED UNIT TEST SUITE         ");
+        System.out.println("              RUNNING HYDROFLOW OS UNIT TEST SUITE               ");
         System.out.println("=================================================================");
 
         int passed = 0;

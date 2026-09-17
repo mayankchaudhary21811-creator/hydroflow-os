@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
- * Main application console providing interactive commands and automated evaluation traces.
+ * Main application console providing interactive commands and demonstration evaluation traces.
  */
 public class HydroFlowApp {
 
@@ -124,7 +124,7 @@ public class HydroFlowApp {
         sensorThread.start();
         try {
             sensorThread.join();
-            System.out.printf("Telemetry worker joined successfully. Generated %d sensor packets:\n",
+            System.out.printf("Telemetry worker joined successfully. Emitted %d sensor packets:\n",
                     worker.getRecordedPackets().size());
             for (int i = 0; i < Math.min(3, worker.getRecordedPackets().size()); i++) {
                 System.out.println("  " + worker.getRecordedPackets().get(i));
@@ -144,14 +144,14 @@ public class HydroFlowApp {
                 csvFile
             );
             System.out.println("Exported reservoir inventory to: " + csvFile.getPath());
-            NetworkPersistenceManager.appendOperationalEvent(auditFile, "HydroFlow OS automated audit test complete.");
+            NetworkPersistenceManager.appendOperationalEvent(auditFile, "HydroFlow OS operational cycle diagnostic complete.");
             System.out.println("Appended diagnostic record to: " + auditFile.getPath());
         } catch (Exception e) {
             System.out.println("File persistence notice: " + e.getMessage());
         }
 
         System.out.println("\n================================================================================");
-        System.out.println("                    AUTOMATED EVALUATION DEMO COMPLETE                          ");
+        System.out.println("                    EVALUATION DEMO RUN COMPLETE                                ");
         System.out.println("================================================================================");
     }
 }
