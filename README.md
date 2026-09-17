@@ -8,7 +8,7 @@
   <strong>Evaluated Course Project</strong> | <strong>Course Code:</strong> CSE2006 (Programming in Java)<br>
   <strong>Institution:</strong> Vellore Institute of Technology (VIT) Bhopal University<br>
   <strong>Student:</strong> Mayank Chaudhary (Registration: 24BEC10011)<br>
-  <strong>Faculty Evaluator:</strong> Dr. Muthusundari
+  <strong>Academic Term:</strong> Fall Semester 2026 to 2027
 </p>
 
 ---
@@ -31,7 +31,7 @@ HydroFlow OS models and resolves each of these constraints in standard Java SE w
 ## 2. Core Architectural Principles
 
 The application is structured into four decoupled layers:
-- Presentation Layer: Interactive terminal console menu and automated evaluation runner with ANSI formatting.
+- Presentation Layer: Interactive terminal console menu and evaluation demonstration runner with ANSI formatting.
 - Domain Physics Layer: Object-oriented models for pipelines, elevated reservoir tanks, and polymorphic booster pump trains.
 - Protection and Interlock Layer: Custom checked exception hierarchy validating net positive suction head and water hammer pressure limits before actuation.
 - Infrastructure and Persistence Layer: Asynchronous sensor worker threads and stream-based CSV persistence using try-with-resources.
@@ -146,7 +146,7 @@ javac -d bin (Get-ChildItem -Recurse -Filter *.java src | ForEach-Object { $_.Fu
 javac -d bin $(find src -name "*.java")
 ```
 
-### Run the Automated Test Suite
+### Run the Unit Test Suite
 Execute the standalone test suite with assertions enabled:
 
 ```bash
@@ -156,7 +156,7 @@ java -ea -cp bin com.hydroflow.test.HydroFlowTestSuite
 Expected output:
 ```text
 =================================================================
-          RUNNING HYDROFLOW OS AUTOMATED UNIT TEST SUITE         
+              RUNNING HYDROFLOW OS UNIT TEST SUITE               
 =================================================================
   [PASS] testNodeIdentifierValidation          ... OK
   [PASS] testPolymorphicPowerCalculation         ... OK
@@ -170,7 +170,7 @@ TEST RESULTS: 6 / 6 PASSED (Success Rate: 100.0%)
 ```
 
 ### Run the Evaluation Demonstration
-Run the automated end-to-end operational evaluation trace:
+Run the end-to-end operational evaluation trace:
 
 ```bash
 java -cp bin com.hydroflow.cli.HydroFlowApp --demo

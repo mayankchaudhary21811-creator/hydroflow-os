@@ -35,7 +35,7 @@ public class HydroFlowApp {
         System.out.println("================================================================================");
         System.out.println("   HYDROFLOW OS: MUNICIPAL WATER DISTRIBUTION & SURGE PROTECTION ENGINE         ");
         System.out.println("   Evaluated Course Project | CSE2006 Programming in Java | VIT Bhopal          ");
-        System.out.println("   Student: Mayank Chaudhary (24BEC10011) | Faculty: Dr. Muthusundari           ");
+        System.out.println("   Student: Mayank Chaudhary (24BEC10011) | Term: Fall Semester 2026-2027       ");
         System.out.println("================================================================================");
     }
 
