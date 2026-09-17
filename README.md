@@ -9,7 +9,7 @@
   <strong>Institution:</strong> Vellore Institute of Technology (VIT) Bhopal University<br>
   <strong>Student:</strong> Mayank Chaudhary (Registration: 24BEC10011)<br>
   <strong>Academic Term:</strong> Fall Semester 2026 to 2027<br>
-  <strong>Official Repository:</strong> <a href="https://github.com/mayankchaudhary21811-creator">https://github.com/mayankchaudhary21811-creator</a>
+  <strong>Official Repository:</strong> <a href="https://github.com/mayankchaudhary21811-creator/hydroflow-os">https://github.com/mayankchaudhary21811-creator/hydroflow-os</a>
 </p>
 
 ---
@@ -131,6 +131,12 @@ mayank vityarthi/
 ---
 
 ## 7. Compilation & Execution
+
+### Clone Repository
+```bash
+git clone https://github.com/mayankchaudhary21811-creator/hydroflow-os.git
+cd hydroflow-os
+```
 
 ### Prerequisites
 - Java Development Kit (JDK) 8 or higher (compatible with OpenJDK 11, 17, 21, and Oracle JDK 21).
